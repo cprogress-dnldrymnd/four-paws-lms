@@ -16,7 +16,7 @@
 							<span class="icon">
 								<?= get__term_meta($cat->term_id, 'svg_icon') ?>
 							</span>
-							<span><?php echo esc_html($cat->name); ?></span>
+							<span class="text"><?php echo esc_html($cat->name); ?></span>
 						</li>
 					<?php } ?>
 				</ul>
