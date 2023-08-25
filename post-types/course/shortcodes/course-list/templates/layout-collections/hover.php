@@ -6,7 +6,9 @@
 			<div class="eltdf-cli-top-info">
 				<?php
 					echo academist_lms_get_cpt_shortcode_module_template_part( 'course', 'course-list', 'parts/title', '', $params );
-					echo academist_lms_get_cpt_shortcode_module_template_part( 'course', 'course-list', 'parts/instructor', '', $params );
+					//echo academist_lms_get_cpt_shortcode_module_template_part( 'course', 'course-list', 'parts/instructor', '', $params );
+
+					do_action('course_meta');
 				?>
 
 			</div>
