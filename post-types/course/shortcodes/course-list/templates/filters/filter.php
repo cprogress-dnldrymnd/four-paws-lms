@@ -1,19 +1,21 @@
-<?php if($filter == 'yes') {
+<?php if ($filter == 'yes') {
 	$filter_categories    = $this_object->getFilterCategories($params);
 	$filter_holder_styles = $this_object->getFilterHolderStyles($params);
 	$filter_styles        = $this_object->getFilterStyles($params);
-	?>
+?>
 	<div class="eltdf-cl-filter-holder" <?php academist_elated_inline_style($filter_holder_styles); ?>>
 		<div class="eltdf-plf-inner">
 			<?php
-			if(is_array($filter_categories) && count($filter_categories)){ ?>
+			if (is_array($filter_categories) && count($filter_categories)) { ?>
 				<ul <?php academist_elated_inline_style($filter_styles); ?>>
 					<li class="eltdf-cl-filter" data-filter="">
-						<span><?php esc_html_e('All Courses', 'academist-core')?></span>
+						<span><?php esc_html_e('All Courses', 'academist-core') ?></span>
 					</li>
-					<?php foreach($filter_categories as $cat) { ?>
+					<?php foreach ($filter_categories as $cat) { ?>
 						<li class="eltdf-cl-filter" data-filter=".course-category-<?php echo esc_attr($cat->slug); ?>">
-							<span><?php echo esc_html($cat->name); ?></span>
+							<span class="icon">
+								<?= get__term_meta($cat->term_id, 'svg_icon') ?>
+							</span>
 							<span><?php echo esc_html($cat->name); ?></span>
 						</li>
 					<?php } ?>
