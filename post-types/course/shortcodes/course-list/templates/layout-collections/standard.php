@@ -20,7 +20,7 @@
 				<div class="price">
 					<?= academist_lms_get_cpt_shortcode_module_template_part('course', 'course-list', 'parts/price', '', $params); ?>
 				</div>
-				<a itemprop="url" href="<?php the_permalink() ?>" target="_self" style="color: #ffffff;margin: 0 15px 0 0" class="eltdf-btn eltdf-btn-medium eltdf-btn-solid eltdf-btn-arrow button-accent">
+				<a itemprop="url" href="<?php the_permalink() ?>" target="_self" style="color: #ffffff;" class="eltdf-btn eltdf-btn-medium eltdf-btn-solid eltdf-btn-arrow button-accent">
 					<span class="eltdf-btn-text">Read More</span>
 				</a>
 			</div>
