@@ -20,7 +20,7 @@
 								</g>
 							</svg>
 						</span>
-						<span><?php esc_html_e('All Courses', 'academist-core') ?></span>
+						<span class="text"><?php esc_html_e('All Courses', 'academist-core') ?></span>
 					</li>
 					<?php foreach ($filter_categories as $cat) { ?>
 						<li class="eltdf-cl-filter" data-filter=".course-category-<?php echo esc_attr($cat->slug); ?>">
