@@ -23,7 +23,7 @@
 }
 
 .eltdf-course-features-holder .eltdf-course-features li .eltdf-item-icon {
-  color: #ff1949;
+  color: #8CC63F;
   font-size: 20px;
   margin-right: 15px;
 }
@@ -41,7 +41,7 @@
 }
 
 .eltdf-course-features-holder .eltdf-course-features li.eltdf-feature-item .eltdf-item-value {
-  color: #ff1949;
+  color: #8CC63F;
 }
 
 .eltdf-course-features-holder .eltdf-course-features li.eltdf-feature-item .eltdf-item-value:before {
@@ -91,7 +91,7 @@
   position: absolute;
   bottom: 30px;
   padding: 8px 29px;
-  background-color: #ff1949;
+  background-color: #8CC63F;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
@@ -343,7 +343,7 @@ Course filter style - begin --- CATEGORY
   width: 20px;
   font-family: 'ElegantIcons';
   vertical-align: unset;
-  color: #ff1949;
+  color: #8CC63F;
   font-size: 18px;
   line-height: inherit;
   font-weight: 800;
@@ -394,7 +394,7 @@ Course filter style - begin --- CATEGORY
 }
 
 .eltdf-cl-has-filter-category .eltdf-cl-filter-holder ul li.eltdf-pl-current span {
-  color: #ff1949;
+  color: #8CC63F;
 }
 
 /* ==========================================================================
@@ -447,7 +447,7 @@ Course filter style - begin --- CATEGORY
 }
 
 .eltdf-cl-filter-holder .eltdf-course-layout-filter span.eltdf-active {
-  color: #ff1949;
+  color: #8CC63F;
 }
 
 .eltdf-cl-filter-holder .eltdf-course-layout-filter span:first-child {
@@ -573,11 +573,11 @@ Course filter style - begin --- CATEGORY
 }
 
 .eltdf-cl-standard-pagination ul li a:hover {
-  color: #ff1949;
+  color: #8CC63F;
 }
 
 .eltdf-cl-standard-pagination ul li.eltdf-cl-pag-active a {
-  color: #ff1949;
+  color: #8CC63F;
 }
 
 .eltdf-cl-standard-pagination ul li.eltdf-cl-pag-prev, .eltdf-cl-standard-pagination ul li.eltdf-cl-pag-next {
@@ -817,7 +817,7 @@ Course filter style - begin --- CATEGORY
   left: 0;
   width: 38px;
   height: 3px;
-  background-color: #ff1949;
+  background-color: #8CC63F;
 }
 
 .eltdf-course-slider-holder .eltdf-course-list-holder .eltdf-cli-text-holder .eltdf-cli-excerpt {
@@ -878,7 +878,7 @@ Course filter style - begin --- CATEGORY
 }
 
 .eltdf-course-slider-holder .eltdf-course-list-holder .eltdf-cli-text-holder .eltdf-cli-bottom-info .eltdf-ci-price-holder span {
-  color: #ff1949;
+  color: #8CC63F;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   text-transform: capitalize;
@@ -900,7 +900,7 @@ Course filter style - begin --- CATEGORY
 }
 
 .eltdf-course-slider-holder .eltdf-course-list-holder.eltdf-pag-light-skin .owl-dots .owl-dot.active span, .eltdf-course-slider-holder .eltdf-course-list-holder.eltdf-pag-light-skin .owl-dots .owl-dot:hover span {
-  background-color: #ff1949;
+  background-color: #8CC63F;
 }
 
 .eltdf-course-slider-holder .eltdf-course-list-holder.eltdf-pag-dark-skin .owl-dots .owl-dot span {
@@ -908,7 +908,7 @@ Course filter style - begin --- CATEGORY
 }
 
 .eltdf-course-slider-holder .eltdf-course-list-holder.eltdf-pag-dark-skin .owl-dots .owl-dot.active span, .eltdf-course-slider-holder .eltdf-course-list-holder.eltdf-pag-dark-skin .owl-dots .owl-dot:hover span {
-  background-color: #ff1949;
+  background-color: #8CC63F;
 }
 
 .eltdf-course-slider-holder .eltdf-course-list-holder.eltdf-pag-on-slider .owl-nav .owl-prev,
@@ -1098,7 +1098,7 @@ Course filter style - begin --- CATEGORY
 }
 
 .eltdf-membership-dashboard-content-holder .eltdf-lms-profile-favorites-holder .eltdf-lms-profile-favorite-item-title .eltdf-membership-item-favorites > i {
-  color: #ff1949;
+  color: #8CC63F;
 }
 
 @media only screen and (max-width: 480px) {
@@ -1142,7 +1142,7 @@ Course filter style - begin --- CATEGORY
 }
 
 .eltdf-course-single-holder .eltdf-course-title-wrapper .eltdf-course-right-section .eltdf-favorites-icon.eltdf-favorite-active {
-  color: #ff1949;
+  color: #8CC63F;
 }
 
 .eltdf-course-single-holder .eltdf-course-single-title {
@@ -1153,7 +1153,7 @@ Course filter style - begin --- CATEGORY
 .eltdf-course-single-holder .eltdf-course-single-type {
   position: relative;
   top: -3px;
-  color: #ff1949;
+  color: #8CC63F;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
   font-size: 25px;
@@ -1162,7 +1162,7 @@ Course filter style - begin --- CATEGORY
 }
 
 .eltdf-course-single-holder .eltdf-course-single-type.eltdf-free-course {
-  color: #ff1949;
+  color: #8CC63F;
 }
 
 @media only screen and (min-width: 681px) and (max-width: 1024px) {
@@ -1178,7 +1178,7 @@ Course filter style - begin --- CATEGORY
 }
 
 .eltdf-course-single-holder .eltdf-course-basic-info-wrapper .eltdf-course-action .eltdf-btn {
-  background-color: #ff1949;
+  background-color: #8CC63F;
 }
 
 @media screen and (max-width: 1024px) {
@@ -1351,7 +1351,7 @@ Course filter style - begin --- CATEGORY
 
 .eltdf-course-reviews-list-top .eltdf-reviews-number {
   display: block;
-  color: #ff1949;
+  color: #8CC63F;
   font-family: "Poppins", sans-serif;
   font-size: 60px;
   line-height: 1;
@@ -1464,7 +1464,7 @@ Course filter style - begin --- CATEGORY
 }
 
 .eltdf-course-reviews-list .eltdf-comment-holder .eltdf-comment-text .eltdf-review-title {
-  color: #ff1949;
+  color: #8CC63F;
   margin: 6px 0 11px;
 }
 
@@ -1570,7 +1570,7 @@ Course filter style - begin --- CATEGORY
 }
 
 .eltdf-course-single-holder .eltdf-course-tabs-wrapper .eltdf-course-curriculum .eltdf-section-element .eltdf-element-info .eltdf-element-clock-icon {
-  color: #ff1949;
+  color: #8CC63F;
   margin: 0px 4px 0px 3px;
   position: relative;
   top: 2px;
@@ -1594,7 +1594,7 @@ Course filter style - begin --- CATEGORY
   color: #fff;
   margin-left: 14px;
   letter-spacing: 0.015em;
-  background-color: #ff1949;
+  background-color: #8CC63F;
   padding: 2px 13px 4px;
   text-transform: capitalize;
 }
@@ -1832,7 +1832,7 @@ Course filter style - begin --- CATEGORY
 }
 
 .eltdf-course-popup .eltdf-lms-search-holder input:focus {
-  outline-color: #ff1949;
+  outline-color: #8CC63F;
 }
 
 .eltdf-course-popup .eltdf-lms-search-holder .eltdf-lms-search-field-wrapper {
@@ -2044,7 +2044,7 @@ Course filter style - begin --- CATEGORY
   color: #fff;
   margin-left: 14px;
   letter-spacing: 0.015em;
-  background-color: #ff1949;
+  background-color: #8CC63F;
   padding: 2px 13px 4px;
   text-transform: capitalize;
 }
@@ -2112,7 +2112,7 @@ Course filter style - begin --- CATEGORY
 }
 
 .eltdf-course-features-holder .eltdf-course-features li .eltdf-item-icon {
-  color: #ff1949;
+  color: #8CC63F;
   font-size: 20px;
   margin-right: 15px;
 }
@@ -2130,7 +2130,7 @@ Course filter style - begin --- CATEGORY
 }
 
 .eltdf-course-features-holder .eltdf-course-features li.eltdf-feature-item .eltdf-item-value {
-  color: #ff1949;
+  color: #8CC63F;
 }
 
 .eltdf-course-features-holder .eltdf-course-features li.eltdf-feature-item .eltdf-item-value:before {
@@ -2180,7 +2180,7 @@ Course filter style - begin --- CATEGORY
   position: absolute;
   bottom: 30px;
   padding: 8px 29px;
-  background-color: #ff1949;
+  background-color: #8CC63F;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
@@ -2432,7 +2432,7 @@ Course filter style - begin --- CATEGORY
   width: 20px;
   font-family: 'ElegantIcons';
   vertical-align: unset;
-  color: #ff1949;
+  color: #8CC63F;
   font-size: 18px;
   line-height: inherit;
   font-weight: 800;
@@ -2483,7 +2483,7 @@ Course filter style - begin --- CATEGORY
 }
 
 .eltdf-cl-has-filter-category .eltdf-cl-filter-holder ul li.eltdf-pl-current span {
-  color: #ff1949;
+  color: #8CC63F;
 }
 
 /* ==========================================================================
@@ -2536,7 +2536,7 @@ Course filter style - begin --- CATEGORY
 }
 
 .eltdf-cl-filter-holder .eltdf-course-layout-filter span.eltdf-active {
-  color: #ff1949;
+  color: #8CC63F;
 }
 
 .eltdf-cl-filter-holder .eltdf-course-layout-filter span:first-child {
@@ -2662,11 +2662,11 @@ Course filter style - begin --- CATEGORY
 }
 
 .eltdf-cl-standard-pagination ul li a:hover {
-  color: #ff1949;
+  color: #8CC63F;
 }
 
 .eltdf-cl-standard-pagination ul li.eltdf-cl-pag-active a {
-  color: #ff1949;
+  color: #8CC63F;
 }
 
 .eltdf-cl-standard-pagination ul li.eltdf-cl-pag-prev, .eltdf-cl-standard-pagination ul li.eltdf-cl-pag-next {
@@ -2891,7 +2891,7 @@ Course filter style - begin --- CATEGORY
 }
 
 .eltdf-course-list-holder.eltdf-cl-hover article .eltdf-cli-text-holder .eltdf-cli-top-info .eltdf-cli-title a:hover {
-  color: #ff1949;
+  color: #8CC63F;
 }
 
 .eltdf-course-list-holder.eltdf-cl-hover article .eltdf-cli-text-holder .eltdf-cli-top-info .eltdf-instructor-name {
@@ -2909,7 +2909,7 @@ Course filter style - begin --- CATEGORY
   left: 0;
   width: 38px;
   height: 0;
-  background-color: #ff1949;
+  background-color: #8CC63F;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -3082,7 +3082,7 @@ Course filter style - begin --- CATEGORY
 }
 
 .eltdf-course-list-holder.eltdf-cl-minimal article .eltdf-ci-price-holder {
-  color: #ff1949;
+  color: #8CC63F;
   font-weight: 400;
   font-family: "Poppins", sans-serif;
   letter-spacing: 0.015em;
@@ -3148,7 +3148,7 @@ Course filter style - begin --- CATEGORY
   left: 0;
   width: 38px;
   height: 3px;
-  background-color: #ff1949;
+  background-color: #8CC63F;
 }
 
 .eltdf-course-list-holder.eltdf-cl-standard article .eltdf-cli-text-holder .eltdf-cli-excerpt {
@@ -3213,7 +3213,7 @@ Course filter style - begin --- CATEGORY
 }
 
 .eltdf-course-list-holder.eltdf-cl-standard article .eltdf-cli-text-holder .eltdf-cli-bottom-info .eltdf-ci-price-holder span {
-  color: #ff1949;
+  color: #8CC63F;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   text-transform: capitalize;
@@ -3338,7 +3338,7 @@ Course filter style - begin --- CATEGORY
   left: 0;
   width: 38px;
   height: 3px;
-  background-color: #ff1949;
+  background-color: #8CC63F;
 }
 
 .eltdf-course-slider-holder .eltdf-course-list-holder .eltdf-cli-text-holder .eltdf-cli-excerpt {
@@ -3399,7 +3399,7 @@ Course filter style - begin --- CATEGORY
 }
 
 .eltdf-course-slider-holder .eltdf-course-list-holder .eltdf-cli-text-holder .eltdf-cli-bottom-info .eltdf-ci-price-holder span {
-  color: #ff1949;
+  color: #8CC63F;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   text-transform: capitalize;
@@ -3421,7 +3421,7 @@ Course filter style - begin --- CATEGORY
 }
 
 .eltdf-course-slider-holder .eltdf-course-list-holder.eltdf-pag-light-skin .owl-dots .owl-dot.active span, .eltdf-course-slider-holder .eltdf-course-list-holder.eltdf-pag-light-skin .owl-dots .owl-dot:hover span {
-  background-color: #ff1949;
+  background-color: #8CC63F;
 }
 
 .eltdf-course-slider-holder .eltdf-course-list-holder.eltdf-pag-dark-skin .owl-dots .owl-dot span {
@@ -3429,7 +3429,7 @@ Course filter style - begin --- CATEGORY
 }
 
 .eltdf-course-slider-holder .eltdf-course-list-holder.eltdf-pag-dark-skin .owl-dots .owl-dot.active span, .eltdf-course-slider-holder .eltdf-course-list-holder.eltdf-pag-dark-skin .owl-dots .owl-dot:hover span {
-  background-color: #ff1949;
+  background-color: #8CC63F;
 }
 
 .eltdf-course-slider-holder .eltdf-course-list-holder.eltdf-pag-on-slider .owl-nav .owl-prev,
@@ -3544,7 +3544,7 @@ Course filter style - begin --- CATEGORY
 }
 
 .eltdf-instructor-single-holder .eltdf-social a:hover {
-  color: #ff1949;
+  color: #8CC63F;
 }
 
 .eltdf-instructor-single-holder .eltdf-social a span {
@@ -3613,7 +3613,7 @@ Course filter style - begin --- CATEGORY
 }
 
 .eltdf-instructor.info-bellow.eltdf-light-skin .eltdf-icon-shortcode a:hover span {
-  color: #ff1949 !important;
+  color: #8CC63F !important;
 }
 
 .eltdf-instructor.info-bellow .eltdf-instructor-inner {
@@ -3661,7 +3661,7 @@ Course filter style - begin --- CATEGORY
 }
 
 .eltdf-instructor.info-bellow .eltdf-instructor-name:hover {
-  color: #ff1949;
+  color: #8CC63F;
 }
 
 .eltdf-instructor.info-bellow .eltdf-instructor-position {
@@ -3685,7 +3685,7 @@ Course filter style - begin --- CATEGORY
 }
 
 .eltdf-instructor.info-bellow .eltdf-icon-shortcode a:hover span {
-  color: #ff1949 !important;
+  color: #8CC63F !important;
 }
 
 .eltdf-instructor.info-bellow .eltdf-icon-shortcode:first-child {
@@ -3863,7 +3863,7 @@ Course filter style - begin --- CATEGORY
 }
 
 .eltdf-instructor.simple.eltdf-light-skin .eltdf-icon-shortcode a:hover {
-  color: #ff1949;
+  color: #8CC63F;
 }
 
 .eltdf-instructor.simple .eltdf-instructor-inner {
@@ -3924,7 +3924,7 @@ Course filter style - begin --- CATEGORY
 }
 
 .eltdf-instructor.simple .eltdf-instructor-social .eltdf-instructor-social-wrapp .eltdf-icon-shortcode a:hover {
-  color: #ff1949;
+  color: #8CC63F;
 }
 
 .eltdf-instructor.simple .eltdf-instructor-social .eltdf-instructor-social-wrapp .eltdf-icon-shortcode a .eltdf-icon-element {
@@ -3965,7 +3965,7 @@ Course filter style - begin --- CATEGORY
 }
 
 .eltdf-lesson-single-holder .eltdf-lms-message {
-  color: #ff1949;
+  color: #8CC63F;
 }
 
 .eltdf-lesson-single-holder .eltdf-lms-message span {
