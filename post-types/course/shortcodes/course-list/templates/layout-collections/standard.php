@@ -16,7 +16,7 @@
 
 			</div>
 			<?php echo academist_lms_get_cpt_shortcode_module_template_part('course', 'course-list', 'parts/excerpt', '', $params); ?>
-			<div class="eltdf-cli-bottom-info d-flex">
+			<div class="eltdf-cli-bottom-info d-flex align-items-center">
 				<div class="price">
 					<?= academist_lms_get_cpt_shortcode_module_template_part('course', 'course-list', 'parts/price', '', $params); ?>
 				</div>
