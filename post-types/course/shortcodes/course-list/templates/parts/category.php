@@ -2,7 +2,7 @@
 	$categories = wp_get_post_terms( get_the_ID(), 'course-category' );
 	
 	if ( ! empty( $categories ) ) { ?>
-		<div class="eltdf-cli-category-holder">
+		<div class="eltdf-cli-category-holder xxx">
 			<?php foreach ( $categories as $cat ) { ?>
 				<a itemprop="url" class="eltdf-cli-category" href="<?php echo esc_url( get_term_link( $cat->term_id ) ); ?>"><?php echo esc_html( $cat->name ); ?></a>
 			<?php } ?>
