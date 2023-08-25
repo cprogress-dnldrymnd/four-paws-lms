@@ -9,10 +9,11 @@
 			if(is_array($filter_categories) && count($filter_categories)){ ?>
 				<ul <?php academist_elated_inline_style($filter_styles); ?>>
 					<li class="eltdf-cl-filter" data-filter="">
-						<span><?php esc_html_e('Show all', 'academist-core')?></span>
+						<span><?php esc_html_e('All Courses', 'academist-core')?></span>
 					</li>
 					<?php foreach($filter_categories as $cat) { ?>
 						<li class="eltdf-cl-filter" data-filter=".course-category-<?php echo esc_attr($cat->slug); ?>">
+							<span><?php echo esc_html($cat->name); ?></span>
 							<span><?php echo esc_html($cat->name); ?></span>
 						</li>
 					<?php } ?>
