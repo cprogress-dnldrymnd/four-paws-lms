@@ -1,4 +1,5 @@
 <div class="eltdf-course-single-wrapper">
+	<?php do_action('course_details') ?>
 	<!---
 	<div class="eltdf-course-title-wrapper">
 		<div class="eltdf-course-left-section">
