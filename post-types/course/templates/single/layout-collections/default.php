@@ -26,6 +26,7 @@
 				</div>
 			</div>
 			<div class="eltdf-grid-col-3">
+				<?php academist_lms_get_cpt_single_module_template_part('single/parts/action', 'course', '', $params); ?>
 			</div>
 		</div>
 	</div>
