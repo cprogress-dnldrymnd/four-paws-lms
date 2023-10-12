@@ -516,7 +516,7 @@ if ( ! function_exists( 'academist_lms_get_buy_form' ) ) {
 			} elseif ( academist_lms_check_is_course_in_cart() ) {
 				academist_lms_get_cpt_single_module_template_part( 'single/parts/cart-button', 'course', '', $params );
 			} elseif ( academist_lms_eltdf_woocommerce_integration_installed() ) {
-				academist_checkout_get_buy_form( array(), array( 'input_text' => esc_html__( 'Apply now', 'academist-lms' ) ) );
+				academist_checkout_get_buy_form( array(), array( 'input_text' => esc_html__( 'Add to Bag', 'academist-lms' ) ) );
 			}
 			//this should move from this function when sidebar created
 		}
