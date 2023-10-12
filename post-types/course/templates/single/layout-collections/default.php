@@ -38,5 +38,8 @@
 	<div class="eltdf-course-tabs-wrapper">
 		<?php academist_lms_get_cpt_single_module_template_part('single/parts/tabs', 'course', '', $params); ?>
 	</div>
+
+	<?php do_action('course_add_to_cart') ?>
+
 	<?php academist_lms_get_cpt_single_module_template_part('single/parts/social', 'course', '', $params); ?>
 </div>
