@@ -15,6 +15,7 @@
 		</div>
 	</div>
 -->
+	<!--
 	<div class="eltdf-course-basic-info-wrapper">
 		<div class="eltdf-grid-row">
 			<div class="eltdf-grid-col-9">
@@ -29,6 +30,8 @@
 			</div>
 		</div>
 	</div>
+
+			-->
 	<div class="eltdf-course-image-wrapper">
 		<?php academist_lms_get_cpt_single_module_template_part('single/parts/image', 'course', '', $params); ?>
 	</div>
