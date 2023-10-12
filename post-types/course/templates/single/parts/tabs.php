@@ -2,7 +2,7 @@
 $tabs = apply_filters( 'academist_elated_filter_single_course_tabs', array() );
 if ( ! empty( $tabs ) ) :
 	?>
-	
+	ss
 	<div class="eltdf-tabs eltdf-tabs-standard">
 		<ul class="eltdf-tabs-nav clearfix">
 			<?php foreach ( $tabs as $key => $tab ) : ?>
