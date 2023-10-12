@@ -2,7 +2,7 @@
 	<div class="eltdf-course-title-wrapper">
 		<div class="eltdf-course-left-section">
 			<?php academist_lms_get_cpt_single_module_template_part( 'single/parts/title', 'course', '', $params ); ?>
-			<?php academist_lms_get_cpt_single_module_template_part( 'single/parts/course-type', 'course', '', $params ); ?>
+			<?php academist_lms_get_cpt_single_module_template_part( 'single/parts/course-type', 'course', '', $params ); ?>xxxx
 		</div>
 		<div class="eltdf-course-right-section">
             <span class="eltdf-course-whishlist-wrapper">
