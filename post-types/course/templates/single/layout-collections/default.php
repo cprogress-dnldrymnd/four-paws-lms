@@ -1,5 +1,5 @@
-<!--
 <div class="eltdf-course-single-wrapper">
+	<!---
 	<div class="eltdf-course-title-wrapper">
 		<div class="eltdf-course-left-section">
 			<?php academist_lms_get_cpt_single_module_template_part('single/parts/title', 'course', '', $params); ?>
@@ -13,6 +13,7 @@
             </span>
 		</div>
 	</div>
+-->
 	<div class="eltdf-course-basic-info-wrapper">
 		<div class="eltdf-grid-row">
 			<div class="eltdf-grid-col-9">
@@ -33,6 +34,5 @@
 	<div class="eltdf-course-tabs-wrapper">
 		<?php academist_lms_get_cpt_single_module_template_part('single/parts/tabs', 'course', '', $params); ?>
 	</div>
-    <?php academist_lms_get_cpt_single_module_template_part('single/parts/social', 'course', '', $params); ?>
+	<?php academist_lms_get_cpt_single_module_template_part('single/parts/social', 'course', '', $params); ?>
 </div>
--->
