@@ -1,5 +1,5 @@
 
-<div class="eltdf-instructor eltdf-item-space <?php echo esc_attr( $instructor_layout ) ?> <?php echo esc_attr( $instructor_skin ) ?>">
+<div class="eltdf-instructor eltdf-item-space <?php echo esc_attr( $instructor_layout ) ?> <?php echo esc_attr( $instructor_skin ) ?>">ssssxxs
 	<div class="eltdf-instructor-inner">
 		<?php if ( get_the_post_thumbnail( $instructor_id ) !== '' ) { ?>
 			<div class="eltdf-instructor-image">
