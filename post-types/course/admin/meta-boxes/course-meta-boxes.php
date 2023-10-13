@@ -71,13 +71,14 @@ if ( ! function_exists( 'academist_lms_map_course_meta' ) ) {
 		academist_elated_create_meta_box_field(
 			array(
 				'name'        => 'eltdf_course_instructor_meta',
-				'type'        => 'multiselect',
+				'type'        => 'selectblank',
 				'label'       => esc_html__( 'Course Instructor', 'academist-lms' ),
 				'description' => esc_html__( 'Select instructor for this course', 'academist-lms' ),
 				'parent'      => $meta_box,
 				'options'     => $academist_instructors,
 				'args'        => array(
-					'select2' => true
+					'select2' => true,
+					'multiselect' => true,
 				)
 			)
 		);
