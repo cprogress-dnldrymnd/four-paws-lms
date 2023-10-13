@@ -8,6 +8,7 @@
 			<?php academist_lms_get_cpt_single_module_template_part( 'single/parts/social', 'instructor', '', $params ); ?>
 			<?php academist_lms_get_cpt_single_module_template_part( 'single/parts/email', 'instructor', '', $params ); ?>
 			<?php academist_lms_get_cpt_single_module_template_part( 'single/parts/resume', 'instructor', '', $params ); ?>
+			<?php dynamic_sidebar('instructor_sidebar') ?>
 		</div>
 		<div class="eltdf-ts-content-holder eltdf-grid-col-9">
 			<?php academist_lms_get_cpt_single_module_template_part( 'single/parts/tabs', 'instructor', '', $params ); ?>
