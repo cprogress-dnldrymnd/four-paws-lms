@@ -78,7 +78,7 @@ if ( ! function_exists( 'academist_lms_map_course_meta' ) ) {
 				'options'     => $academist_instructors,
 				'args'        => array(
 					'select2' => true,
-					'multiselect' => true,
+					'multiple' => true,
 				)
 			)
 		);
