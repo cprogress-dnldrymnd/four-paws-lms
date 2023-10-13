@@ -77,8 +77,7 @@ if ( ! function_exists( 'academist_lms_map_course_meta' ) ) {
 				'parent'      => $meta_box,
 				'options'     => $academist_instructors,
 				'args'        => array(
-					'select2' => true,
-					'multiple' => true,
+					'select2' => true
 				)
 			)
 		);
