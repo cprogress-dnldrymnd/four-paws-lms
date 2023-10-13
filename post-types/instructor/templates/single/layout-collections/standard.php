@@ -1,6 +1,7 @@
 <div class="eltdf-instructor-single-info-holder">
 	<div class="eltdf-grid-row">
 		<div class="eltdf-ts-info-holder eltdf-grid-col-3">
+			<?php do_action('location_map') ?>
 			<?php academist_lms_get_cpt_single_module_template_part('single/parts/image', 'instructor', '', $params); ?>
 			<?php academist_lms_get_cpt_single_module_template_part('single/parts/name', 'instructor', '', $params); ?>
 			<?php academist_lms_get_cpt_single_module_template_part('single/parts/title', 'instructor', '', $params); ?>
