@@ -1,7 +1,8 @@
 <?php
-defined( 'ABSPATH' ) || exit();
+defined('ABSPATH') || exit();
 
-class WC_Product_Course extends WC_Product_Elatedf_Abstract {
+class WC_Product_Course extends WC_Product_Elatedf_Abstract
+{
 
 
     /**
@@ -11,25 +12,35 @@ class WC_Product_Course extends WC_Product_Elatedf_Abstract {
      *
      * @param int|WC_Product|object $product Product to init.
      */
-    public function __construct( $product = 0 ) {
-        parent::__construct( $product );
+    public function __construct($product = 0)
+    {
+        parent::__construct($product);
 
     }
 
+    //fixed woocommerce error - by dev
+    function get_title()
+    {
+        return get_the_title();
+    }
 
-    function generate_price() {
+    function generate_price()
+    {
         return academist_lms_calculate_course_price($this->get_id());
     }
 
-    function generate_sold_individually() {
+    function generate_sold_individually()
+    {
         return true;
     }
 
-    function generate_stock_status() {
+    function generate_stock_status()
+    {
         return 'instock';
     }
 
-    function generate_stock_quantity() {
+    function generate_stock_quantity()
+    {
         return null;
     }
 
