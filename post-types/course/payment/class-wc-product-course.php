@@ -16,6 +16,10 @@ class WC_Product_Course extends WC_Product_Elatedf_Abstract {
 
     }
 
+    function get_title() {
+        return get_the_title();
+    }
+
     function generate_price() {
         return academist_lms_calculate_course_price($this->get_id());
     }
