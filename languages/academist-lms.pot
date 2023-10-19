@@ -1,4 +1,4 @@
-# Copyright (C) 2022 Elated Themes
+# Copyright (C) 2022 Fou rPaws Themes
 # This file is distributed under the same license as the Academist LMS plugin.
 msgid ""
 msgstr ""
@@ -23,7 +23,7 @@ msgid "Plugin that adds post types for LMS extension"
 msgstr ""
 
 #. Author of the plugin
-msgid "Elated Themes"
+msgid "Fou rPaws Themes"
 msgstr ""
 
 #: post-types/course/admin/meta-boxes/course-meta-boxes.php:54
