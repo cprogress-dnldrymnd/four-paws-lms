@@ -83,7 +83,7 @@ if ( class_exists( 'AcademistElatedClassWidget' ) ) {
 				array(
 					'name' => 'show_instructor',
 					'type' => 'dropdown',
-					'title' => esc_html__('Show Course Instructor', 'academist-lms'),
+					'title' => esc_html__('Show Course Location', 'academist-lms'),
 					'options' => academist_elated_get_yes_no_select_array(false, true)
 				),
 				array(

@@ -72,8 +72,8 @@ if ( ! function_exists( 'academist_lms_map_course_meta' ) ) {
 			array(
 				'name'        => 'eltdf_course_instructor_meta',
 				'type'        => 'selectblank',
-				'label'       => esc_html__( 'Course Instructor', 'academist-lms' ),
-				'description' => esc_html__( 'Select instructor for this course', 'academist-lms' ),
+				'label'       => esc_html__( 'Course Location', 'academist-lms' ),
+				'description' => esc_html__( 'Select Location for this course', 'academist-lms' ),
 				'parent'      => $meta_box,
 				'options'     => $academist_instructors,
 				'args'        => array(
