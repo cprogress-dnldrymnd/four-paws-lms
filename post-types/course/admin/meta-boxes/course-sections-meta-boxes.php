@@ -2,7 +2,7 @@
 
 /*
    Class: AcademistElatedClassMultipleImages
-   A class that initializes Fou rPaws LMS Course Sections
+   A class that initializes Four Paws LMS Course Sections
 */
 class AcademistLMSCourseSectionsMetaBox implements iAcademistElatedInterfaceRender {
     private $name;

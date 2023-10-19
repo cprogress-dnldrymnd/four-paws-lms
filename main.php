@@ -2,7 +2,7 @@
 /*
 Plugin Name: Academist LMS
 Description: Plugin that adds post types for LMS extension
-Author: Fou rPaws Themes
+Author: Four Paws Themes
 Version: 1.2.4
 */
 
@@ -140,7 +140,7 @@ if ( ! function_exists( 'academist_lms_is_revolution_slider_installed' ) ) {
 }
 
 if ( ! function_exists( 'academist_lms_core_plugin_installed' ) ) {
-	//is Fou rPaws CPT installed?
+	//is Four Paws CPT installed?
 	function academist_lms_core_plugin_installed() {
 		return defined( 'ACADEMIST_CORE_VERSION' );
 	}

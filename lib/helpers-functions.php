@@ -257,7 +257,7 @@ if ( ! function_exists( 'academist_lms_ajax_status' ) ) {
 }
 
 if ( ! function_exists( 'academist_lms_array_equal' ) ) {
-	//is Fou rPaws LMS are arrays equal
+	//is Four Paws LMS are arrays equal
 	function academist_lms_array_equal( $a, $b ) {
 		return (
 			is_array( $a ) && is_array( $b ) &&
@@ -268,7 +268,7 @@ if ( ! function_exists( 'academist_lms_array_equal' ) ) {
 }
 
 if ( ! function_exists( 'academist_lms_eltdf_woocommerce_integration_installed' ) ) {
-	//is Fou rPaws Woocommerce Integration?
+	//is Four Paws Woocommerce Integration?
 	function academist_lms_eltdf_woocommerce_integration_installed() {
 		return defined( 'ACADEMIST_CHECKOUT_INTEGRATION' );
 	}
