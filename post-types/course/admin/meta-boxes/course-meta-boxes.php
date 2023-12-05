@@ -71,7 +71,7 @@ if ( ! function_exists( 'academist_lms_map_course_meta' ) ) {
 		academist_elated_create_meta_box_field(
 			array(
 				'name'        => 'eltdf_course_instructor_meta',
-				'type'        => 'multiselect',
+				'type'        => 'selectblank',
 				'label'       => esc_html__( 'Course Location', 'academist-lms' ),
 				'description' => esc_html__( 'Select Location for this course', 'academist-lms' ),
 				'parent'      => $meta_box,
