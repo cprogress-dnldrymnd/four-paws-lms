@@ -201,7 +201,7 @@ class CourseSearch implements Lib\ShortcodeInterface {
 		//Get unique instructors IDs that are set for courses
 		$instructors_from_meta_array = array();
 		global $wpdb;
-		$instructors_from_meta = $wpdb->get_results( "SELECT DISTINCT meta_value FROM $wpdb->postmeta pm ", ARRAY_A );
+		$instructors_from_meta = $wpdb->get_results( "SELECT DISTINCT meta_value FROM $wpdb->postmeta pm WHERE meta_key  = 'eltdf_course_instructor_meta'", ARRAY_A );
 		foreach ( $instructors_from_meta as $instructor ) {
 			$instructors_from_meta_array[] = $instructor['meta_value'];
 		}
