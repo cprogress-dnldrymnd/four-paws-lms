@@ -1,1 +1,1 @@
-<?php do_action('reviews_instructor'); ?>
+<?php do_action('reviews'); ?>
