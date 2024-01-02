@@ -395,7 +395,7 @@ if ( ! function_exists( 'academist_lms_course_add_users_to_course' ) ) {
 			$product_id = $data['product_id'];
 
 			if ( $item['product_id'] != 0 && get_post_type( $product_id ) == 'course' ) {
-				if ( $users = get_post_meta( $product_id, 'eltdf_course_users_attended', true ) !== '' ) {
+				if ( get_post_meta( $product_id, 'eltdf_course_users_attended', true ) !== '' ) {
 					$users[] = $order->get_user_id();
 				} else {
 					$users = array( $order->get_user_id() );
