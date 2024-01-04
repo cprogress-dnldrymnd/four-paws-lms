@@ -17,6 +17,6 @@ $currency_postition = get_option( 'woocommerce_currency_pos' );
 					echo esc_html($price) . get_woocommerce_currency_symbol();
 				}
 			}?>
-      </span>
+      </span>s
 	<?php } ?>
 </div>
